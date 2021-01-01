@@ -6,7 +6,7 @@
     <style>
         #grid{
           display: grid;
-          grid-template-rows:120px 1200px 80px;
+          grid-template-rows:120px 1fr 120px;
         }
         .menu{
           width: 100%;
@@ -30,6 +30,7 @@
           border-bottom: 1px solid black;
         }
         .footer{
+          margin-top: auto;
           width: 100%
           text-align:right;
           color: #4d4d4d;
@@ -113,7 +114,7 @@
     <div id="smart-button-container">
         <div style="text-align: center;">
           <div style="margin-bottom: 1.25rem;">
-            <p>From Seoul to</p>
+            <p><strong>From Seoul to</strong></p>
             <select id="item-options"><option value="USA (delivery fee: $21) total" price="86">USA (delivery fee: $21) total - 86 USD</option><option value="JPN (delivery fee: $15) total" price="80">JPN (delivery fee: $15) total - 80 USD</option><option value="Canada (delivery fee: $21) total" price="86">Canada (delivery fee: $21) total - 86 USD</option><option value="China (delivery fee: $15) total" price="80">China (delivery fee: $15) total - 80 USD</option><option value="France (delivery fee: $22) total" price="82">France (delivery fee: $22) total - 82 USD</option><option value="UK (delivery fee: $18) total" price="88">UK (delivery fee: $18) total - 88 USD</option><option value="Germany (delivery fee: $17) total" price="82">Germany (delivery fee: $17) total - 82 USD</option></select>
             <select style="visibility: hidden" id="quantitySelect"></select>
           </div>
