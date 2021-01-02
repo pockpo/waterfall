@@ -1,15 +1,6 @@
 <!DOCTYPE html>
 <!-- saved from url=(0048)goods_en.html -->
-<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><style class="vjs-styles-defaults">
-      .video-js {
-        width: 300px;
-        height: 150px;
-      }
-
-      .vjs-fluid {
-        padding-top: 56.25%
-      }
-    </style>
+<html><head>
     <meta name="viewport" content="width=device-width,initial-scale=1" />
     <title>Goods</title>
     <style>
@@ -57,11 +48,13 @@
 
         }
         img{
-                padding: 30px;
+                padding-top: auto;
+                padding-right:   30px;
                 height:  300px;
         }
         video{
-                padding: 30px;
+                padding-top: auto;
+                padding-right:   30px;
                 height:  300px;
         }
         div.scrollmenu {
@@ -129,69 +122,23 @@
     <p>delivery fee is depended on your location.</p>
   <p>It is a hologram poster printed on canvases.
     Stacking metalic fabric on lace fabrinc, It looks like a hologram</p>
-
-
-
-    <div id="smart-button-container">
+<p>
+  <div id="smart-button-container">
         <div style="text-align: center;">
           <div style="margin-bottom: 1.25rem;">
-            <p><strong>From Seoul to</strong></p>
-            <select id="item-options"><option value="USA (delivery fee: $21) total" price="86">USA (delivery fee: $21) total - 86 USD</option><option value="JPN (delivery fee: $15) total" price="80">JPN (delivery fee: $15) total - 80 USD</option><option value="Canada (delivery fee: $21) total" price="86">Canada (delivery fee: $21) total - 86 USD</option><option value="China (delivery fee: $15) total" price="80">China (delivery fee: $15) total - 80 USD</option><option value="France (delivery fee: $22) total" price="82">France (delivery fee: $22) total - 82 USD</option><option value="UK (delivery fee: $18) total" price="88">UK (delivery fee: $18) total - 88 USD</option><option value="Germany (delivery fee: $17) total" price="82">Germany (delivery fee: $17) total - 82 USD</option></select>
-            <select style="visibility: hidden" id="quantitySelect"></select>
+            <p>From Seoul to</p>
+            <select id="item-options"><option value="Brazil (delivery fee: $56) total" price="91">Brazil (delivery fee: $56) total - 91 USD</option><option value="Canada (delivery fee: $21) total" price="86">Canada (delivery fee: $21) total - 86 USD</option><option value="China (delivery fee: $16) total" price="81">China (delivery fee: $16) total - 81 USD</option><option value="France (delivery fee: $23) total" price="88">France (delivery fee: $23) total - 88 USD</option><option value="Germany (delivery fee: $18) total" price="88">Germany (delivery fee: $18) total - 88 USD</option><option value="JPN (delivery fee: $16) total" price="81">JPN (delivery fee: $16) total - 81 USD</option><option value="Philippines (delivery fee: $15) total" price="80">Philippines (delivery fee: $15) total - 80 USD</option><option value="Thailand (delivery fee: $16) total" price="81">Thailand (delivery fee: $16) total - 81 USD</option><option value="UK (delivery fee: $19) total" price="89">UK (delivery fee: $19) total - 89 USD</option><option value="USA (delivery fee: $22) total" price="87">USA (delivery fee: $22) total - 87 USD</option></select>
+            <select style="visibility: hidden" id="quantitySelect"><option value="1">1</option><option value="2">2</option><option value="3">3</option></select>
           </div>
-        <div id="paypal-button-container"><div id="zoid-paypal-buttons-74be048039_mti6ndi6ndg" class="paypal-buttons paypal-buttons-context-iframe paypal-buttons-label-paypal paypal-buttons-layout-vertical" data-paypal-smart-button-version="5.0.187" style="height: 168px; transition: all 0.2s ease-in-out 0s;"><style>
-                    #zoid-paypal-buttons-74be048039_mti6ndi6ndg {
-                        position: relative;
-                        display: inline-block;
-                        width: 100%;
-                        min-height: 35px;
-                        min-width: 200px;
-                        max-width: 750px;
-                        font-size: 0;
-                    }
-
-                    #zoid-paypal-buttons-74be048039_mti6ndi6ndg > iframe {
-                        position: absolute;
-                        top: 0;
-                        left: 0;
-                        width: 100%;
-                        height: 100%;
-                    }
-
-                    #zoid-paypal-buttons-74be048039_mti6ndi6ndg > iframe.component-frame {
-                        z-index: 100;
-                    }
-
-                    #zoid-paypal-buttons-74be048039_mti6ndi6ndg > iframe.prerender-frame {
-                        transition: opacity .2s linear;
-                        z-index: 200;
-                    }
-
-                    #zoid-paypal-buttons-74be048039_mti6ndi6ndg > iframe.visible {
-                        opacity: 1;
-                    }
-
-                    #zoid-paypal-buttons-74be048039_mti6ndi6ndg > iframe.invisible {
-                        opacity: 0;
-                        pointer-events: none;
-                    }
-
-                    #zoid-paypal-buttons-74be048039_mti6ndi6ndg > .smart-menu {
-                        position: absolute;
-                        z-index: 300;
-                        top: 0;
-                        left: 0;
-                        width: 100%;
-                    }
-                </style><iframe allowtransparency="true" name="__zoid__paypal_buttons__eyJ1aWQiOiJ6b2lkLXBheXBhbC1idXR0b25zLTc0YmUwNDgwMzlfbXRpNm5kaTZuZGciLCJjb250ZXh0IjoiaWZyYW1lIiwidGFnIjoicGF5cGFsLWJ1dHRvbnMiLCJ2ZXJzaW9uIjoiOV8wXzYzIiwiY2hpbGREb21haW4iOiJodHRwczovL3d3dy5zYW5kYm94LnBheXBhbC5jb20iLCJwYXJlbnREb21haW4iOiJodHRwczovL3BvY2twby5naXRodWIuaW8iLCJwYXJlbnQiOnsidHlwZSI6InBhcmVudCIsImRpc3RhbmNlIjowfSwicHJvcHMiOnsidHlwZSI6InJhdyIsInZhbHVlIjoie1wic3R5bGVcIjp7XCJsYWJlbFwiOlwicGF5cGFsXCIsXCJsYXlvdXRcIjpcInZlcnRpY2FsXCIsXCJjb2xvclwiOlwic2lsdmVyXCIsXCJzaGFwZVwiOlwicmVjdFwiLFwidGFnbGluZVwiOmZhbHNlfSxcImNyZWF0ZU9yZGVyXCI6e1wiX190eXBlX19cIjpcImNyb3NzX2RvbWFpbl9mdW5jdGlvblwiLFwiX192YWxfX1wiOntcImlkXCI6XCJhZWZhMmZiMTEwX210aTZuZGk2bmRnXCIsXCJuYW1lXCI6XCJjcmVhdGVPcmRlclwifX0sXCJvbkFwcHJvdmVcIjp7XCJfX3R5cGVfX1wiOlwiY3Jvc3NfZG9tYWluX2Z1bmN0aW9uXCIsXCJfX3ZhbF9fXCI6e1wiaWRcIjpcImJmNTE5ODdhMjRfbXRpNm5kaTZuZGdcIixcIm5hbWVcIjpcIm9uQXBwcm92ZVwifX0sXCJjb21wb25lbnRzXCI6W1wiYnV0dG9uc1wiXSxcImxvY2FsZVwiOntcImNvdW50cnlcIjpcIktSXCIsXCJsYW5nXCI6XCJrb1wifSxcImdldFByZXJlbmRlckRldGFpbHNcIjp7XCJfX3R5cGVfX1wiOlwiY3Jvc3NfZG9tYWluX2Z1bmN0aW9uXCIsXCJfX3ZhbF9fXCI6e1wiaWRcIjpcImVmNWVlNGRiYzVfbXRpNm5kaTZuZGdcIixcIm5hbWVcIjpcImdldFByZXJlbmRlckRldGFpbHNcIn19LFwiZ2V0UG9wdXBCcmlkZ2VcIjp7XCJfX3R5cGVfX1wiOlwiY3Jvc3NfZG9tYWluX2Z1bmN0aW9uXCIsXCJfX3ZhbF9fXCI6e1wiaWRcIjpcIjJkZjI5NjQ0YTdfbXRpNm5kaTZuZGdcIixcIm5hbWVcIjpcImdldFBvcHVwQnJpZGdlXCJ9fSxcImdldFF1ZXJpZWRFbGlnaWJsZUZ1bmRpbmdcIjp7XCJfX3R5cGVfX1wiOlwiY3Jvc3NfZG9tYWluX2Z1bmN0aW9uXCIsXCJfX3ZhbF9fXCI6e1wiaWRcIjpcImRhMWMzYTM5NzZfbXRpNm5kaTZuZGdcIixcIm5hbWVcIjpcImdldFF1ZXJpZWRFbGlnaWJsZUZ1bmRpbmdcIn19LFwiY2xpZW50SURcIjpcIkFaRHhqRFNjRnBRdGpXVE9VdFdLYnlOX2JEdDRPZ3FhRjRlWVhsZXdmQlA0LThhcVgzUGlWOGUxR1dVNmxpQjJDVVhsa0E1OWtKWEU3TTZSXCIsXCJlbmFibGVUaHJlZURvbWFpblNlY3VyZVwiOmZhbHNlLFwiY29ycmVsYXRpb25JRFwiOlwiNjU5ZjJkOTNlNDFiN1wiLFwic3RvcmFnZUlEXCI6XCJkZTEyYjgzMGI0X210dTZtZGE2bWplXCIsXCJzZXNzaW9uSURcIjpcImU2N2JhMzVkYjBfbXRpNm16ZzZtdGVcIixcImJ1dHRvblNlc3Npb25JRFwiOlwiMTA5ZGQ2MmM5OF9tdGk2bmRpNm5kY1wiLFwiZW52XCI6XCJzYW5kYm94XCIsXCJmdW5kaW5nRWxpZ2liaWxpdHlcIjp7XCJwYXlwYWxcIjp7XCJlbGlnaWJsZVwiOnRydWUsXCJ2YXVsdGFibGVcIjp0cnVlfSxcInBheWxhdGVyXCI6e1wiZWxpZ2libGVcIjpmYWxzZSxcInByb2R1Y3RzXCI6e1wiZmxleFwiOntcImVsaWdpYmxlXCI6ZmFsc2V9LFwicGF5SW40XCI6e1wiZWxpZ2libGVcIjpmYWxzZX19fSxcImNhcmRcIjp7XCJlbGlnaWJsZVwiOnRydWUsXCJicmFuZGVkXCI6dHJ1ZSxcImluc3RhbGxtZW50c1wiOmZhbHNlLFwidmVuZG9yc1wiOntcInZpc2FcIjp7XCJlbGlnaWJsZVwiOnRydWUsXCJ2YXVsdGFibGVcIjp0cnVlfSxcIm1hc3RlcmNhcmRcIjp7XCJlbGlnaWJsZVwiOnRydWUsXCJ2YXVsdGFibGVcIjp0cnVlfSxcImFtZXhcIjp7XCJlbGlnaWJsZVwiOnRydWUsXCJ2YXVsdGFibGVcIjp0cnVlfSxcImRpc2NvdmVyXCI6e1wiZWxpZ2libGVcIjpmYWxzZSxcInZhdWx0YWJsZVwiOnRydWV9LFwiaGlwZXJcIjp7XCJlbGlnaWJsZVwiOmZhbHNlLFwidmF1bHRhYmxlXCI6ZmFsc2V9LFwiZWxvXCI6e1wiZWxpZ2libGVcIjpmYWxzZSxcInZhdWx0YWJsZVwiOnRydWV9LFwiamNiXCI6e1wiZWxpZ2libGVcIjpmYWxzZSxcInZhdWx0YWJsZVwiOnRydWV9fX0sXCJ2ZW5tb1wiOntcImVsaWdpYmxlXCI6ZmFsc2V9LFwiaXRhdVwiOntcImVsaWdpYmxlXCI6ZmFsc2V9LFwiY3JlZGl0XCI6e1wiZWxpZ2libGVcIjpmYWxzZX0sXCJzZXBhXCI6e1wiZWxpZ2libGVcIjpmYWxzZX0sXCJpZGVhbFwiOntcImVsaWdpYmxlXCI6ZmFsc2V9LFwiYmFuY29udGFjdFwiOntcImVsaWdpYmxlXCI6ZmFsc2V9LFwiZ2lyb3BheVwiOntcImVsaWdpYmxlXCI6ZmFsc2V9LFwiZXBzXCI6e1wiZWxpZ2libGVcIjpmYWxzZX0sXCJzb2ZvcnRcIjp7XCJlbGlnaWJsZVwiOmZhbHNlfSxcIm15YmFua1wiOntcImVsaWdpYmxlXCI6ZmFsc2V9LFwicDI0XCI6e1wiZWxpZ2libGVcIjpmYWxzZX0sXCJ6aW1wbGVyXCI6e1wiZWxpZ2libGVcIjpmYWxzZX0sXCJ3ZWNoYXRwYXlcIjp7XCJlbGlnaWJsZVwiOmZhbHNlfSxcInBheXVcIjp7XCJlbGlnaWJsZVwiOmZhbHNlfSxcImJsaWtcIjp7XCJlbGlnaWJsZVwiOmZhbHNlfSxcInRydXN0bHlcIjp7XCJlbGlnaWJsZVwiOmZhbHNlfSxcIm94eG9cIjp7XCJlbGlnaWJsZVwiOmZhbHNlfSxcIm1heGltYVwiOntcImVsaWdpYmxlXCI6ZmFsc2V9LFwiYm9sZXRvXCI6e1wiZWxpZ2libGVcIjpmYWxzZX0sXCJtZXJjYWRvcGFnb1wiOntcImVsaWdpYmxlXCI6ZmFsc2V9fSxcInBsYXRmb3JtXCI6XCJkZXNrdG9wXCIsXCJyZW1lbWJlcmVkXCI6W10sXCJleHBlcmltZW50XCI6e30sXCJmbG93XCI6XCJwdXJjaGFzZVwiLFwicmVtZW1iZXJcIjp7XCJfX3R5cGVfX1wiOlwiY3Jvc3NfZG9tYWluX2Z1bmN0aW9uXCIsXCJfX3ZhbF9fXCI6e1wiaWRcIjpcIjQ5YWU2NTM1YzJfbXRpNm5kaTZuZGdcIixcIm5hbWVcIjpcInJlbWVtYmVyXCJ9fSxcImN1cnJlbmN5XCI6XCJVU0RcIixcImludGVudFwiOlwiY2FwdHVyZVwiLFwiY29tbWl0XCI6dHJ1ZSxcInZhdWx0XCI6ZmFsc2UsXCJlbmFibGVGdW5kaW5nXCI6W10sXCJkaXNhYmxlRnVuZGluZ1wiOltdLFwiZGlzYWJsZUNhcmRcIjpbXSxcIm1lcmNoYW50SURcIjpbXSxcImNzcFwiOnt9LFwiZ2V0UGFnZVVybFwiOntcIl9fdHlwZV9fXCI6XCJjcm9zc19kb21haW5fZnVuY3Rpb25cIixcIl9fdmFsX19cIjp7XCJpZFwiOlwiZDYwYzYyN2I5Yl9tdGk2bmRpNm5kZ1wiLFwibmFtZVwiOlwiZ2V0UGFnZVVybFwifX0sXCJkZWJ1Z1wiOmZhbHNlLFwidGVzdFwiOntcImFjdGlvblwiOlwiY2hlY2tvdXRcIn19In0sImV4cG9ydHMiOiJ7XCJpbml0XCI6e1wiX190eXBlX19cIjpcImNyb3NzX2RvbWFpbl9mdW5jdGlvblwiLFwiX192YWxfX1wiOntcImlkXCI6XCI2Mzk4OTQ1NmM2X210aTZuZGk2bmRnXCIsXCJuYW1lXCI6XCJnblwifX0sXCJjbG9zZVwiOntcIl9fdHlwZV9fXCI6XCJjcm9zc19kb21haW5fZnVuY3Rpb25cIixcIl9fdmFsX19cIjp7XCJpZFwiOlwiOTFhMWYwMTZiNl9tdGk2bmRpNm5kZ1wiLFwibmFtZVwiOlwiY2xvc2U6Om1lbW9pemVkXCJ9fSxcImNoZWNrQ2xvc2VcIjp7XCJfX3R5cGVfX1wiOlwiY3Jvc3NfZG9tYWluX2Z1bmN0aW9uXCIsXCJfX3ZhbF9fXCI6e1wiaWRcIjpcIjBiNDk2ODRmMzlfbXRpNm5kaTZuZGdcIixcIm5hbWVcIjpcImNoZWNrQ2xvc2VcIn19LFwicmVzaXplXCI6e1wiX190eXBlX19cIjpcImNyb3NzX2RvbWFpbl9mdW5jdGlvblwiLFwiX192YWxfX1wiOntcImlkXCI6XCJmMGI5ODA3YTgzX210aTZuZGk2bmRnXCIsXCJuYW1lXCI6XCJ2blwifX0sXCJvbkVycm9yXCI6e1wiX190eXBlX19cIjpcImNyb3NzX2RvbWFpbl9mdW5jdGlvblwiLFwiX192YWxfX1wiOntcImlkXCI6XCJmZTM5NGZhNWU1X210aTZuZGk2bmRnXCIsXCJuYW1lXCI6XCJQblwifX0sXCJzaG93XCI6e1wiX190eXBlX19cIjpcImNyb3NzX2RvbWFpbl9mdW5jdGlvblwiLFwiX192YWxfX1wiOntcImlkXCI6XCJjNGVlZmJmYWE0X210aTZuZGk2bmRnXCIsXCJuYW1lXCI6XCJyblwifX0sXCJoaWRlXCI6e1wiX190eXBlX19cIjpcImNyb3NzX2RvbWFpbl9mdW5jdGlvblwiLFwiX192YWxfX1wiOntcImlkXCI6XCI2YTNlMzMwNDE1X210aTZuZGk2bmRnXCIsXCJuYW1lXCI6XCJvblwifX19In0=__" title="PayPal" allowpaymentrequest="allowpaymentrequest" scrolling="no" id="jsx-iframe-3175c75d2c" class="component-frame visible" style="background-color: transparent; border: none;" src="./goods_en_files/saved_resource.html"></iframe><div id="smart-menu" class="smart-menu"></div><div id="installments-modal" class="installments-modal"></div><iframe name="__detect_close_db3cb3cb3d_mti6ndi6ndg__" style="display: none;" src="./goods_en_files/saved_resource(1).html"></iframe></div></div>
+        <div id="paypal-button-container"></div>
         </div>
       </div>
-      <script src="./goods_en_files/js" data-sdk-integration-source="button-factory" data-uid-auto="0774d29939_mti6ndi6ndc"></script>
+      <script src="https://www.paypal.com/sdk/js?client-id=sb&currency=USD" data-sdk-integration-source="button-factory"></script>
       <script>
         function initPayPalButton() {
           var shipping = 0;
           var itemOptions = document.querySelector("#smart-button-container #item-options");
-      var quantity = parseInt();
+      var quantity = parseInt(3);
       var quantitySelect = document.querySelector("#smart-button-container #quantitySelect");
       if (!isNaN(quantity)) {
         quantitySelect.style.visibility = "visible";
@@ -268,7 +215,7 @@
     }
     initPayPalButton();
       </script>
-<p></p>
+</p>
 
 
 
